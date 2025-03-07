@@ -49,8 +49,8 @@ npm run dev
 
 Run with Docker:
 ```bash
-docker pull your-username/modern-error-page
-docker run -p 80:80 your-username/modern-error-page
+docker pull yiiman/errorino
+docker run -p 80:80 yiiman/errorino
 ```
 
 ## Environment Setup
