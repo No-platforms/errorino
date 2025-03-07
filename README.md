@@ -2,7 +2,7 @@
 
 A beautiful, animated error page built with React and Tailwind CSS. This project provides a modern, dark-themed error page with animated elements like a floating moon and twinkling stars.
 
-![Error Page Preview](https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1200&fit=crop&q=80)
+![Error Page Preview](Screenshot.jpeg)
 
 ## Features
 
