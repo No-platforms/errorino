@@ -12,7 +12,6 @@ A beautiful, animated error page built with React and Tailwind CSS. This project
 - 🔄 Dynamic error messages via URL parameters
 - 🎯 Responsive design
 - 🐳 Docker support
-- 🔄 Automated builds with GitHub Actions
 
 ## Usage
 
@@ -32,7 +31,7 @@ http://your-domain/?code=404&message=Page%20Not%20Found
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/modern-error-page.git
+git clone https://github.com/No-platforms/errorino.git
 ```
 
 2. Install dependencies:
@@ -53,27 +52,8 @@ docker pull yiiman/errorino
 docker run -p 80:80 yiiman/errorino
 ```
 
-## Environment Setup
 
-### GitHub Actions
-
-To enable automatic Docker builds:
-
-1. Add these secrets to your GitHub repository:
-   - `DOCKER_USERNAME`: Your Docker Hub username
-   - `DOCKER_PASSWORD`: Your Docker Hub access token
-
-2. Push to the main branch to trigger the build
-
-## Tech Stack
-
-- React
-- TypeScript
-- Tailwind CSS
-- Vite
-- Docker
-- GitHub Actions
 
 ## License
 
-MIT
+[Apache License](LICENSE)
